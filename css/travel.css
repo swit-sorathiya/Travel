@@ -1,0 +1,118 @@
+  .hero {
+      background: url('../img/home.webp') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-text {
+      background: rgba(0, 0, 0, 0.5); /* optional for better text visibility */
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero .subtitle {
+      font-family: 'Cursive', sans-serif;
+      font-size: 1.5rem;
+      color: #ffc107;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .box1{
+            /* height: 220px; */
+            /* width: 220px; */
+            border-radius: 10px;
+            overflow: hidden;
+            /* margin: 60px; */
+            /* padding: 10px 25px; */
+            float: left;
+            display: block;
+
+        }
+
+        .box1 img{
+            height: 100%;
+            width: 100%;
+            filter:brightness(100%);
+            transition: 0.9s ease;
+            cursor: pointer;
+            transform: scale(1.5);
+            
+        }
+        .box1 img:hover{
+            transform: scale(1.9);
+            filter: blur(100%);
+        }
+        .box2{
+            /* height: 220px; */
+            /* width: 220px; */
+            /* border-radius: 10px; */
+            overflow: hidden;
+            /* margin: 60px; */
+            /* padding: 10px 25px; */
+            float: left;
+            display: block;
+
+        }
+
+        .box2 img{
+            /* height: 100%; */
+            /* width: 100%; */
+            filter:brightness(100%);
+            transition: 1.9s ease;
+            cursor: pointer;
+            transform: scale(1.0);
+            
+        }
+        .box2 img:hover{
+            transform: scale(1.2);
+            filter: blur(00%);
+        }
+        .hero1 {
+      background: url('../img/Slide-In\ Tour\ slider.webp') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero1-text {
+      background: rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .hero1 h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero1 .subtitle {
+      font-family: 'Cursive', sans-serif;
+      font-size: 1.5rem;
+      color: #ffc107;
+    }
+    .hero1 p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .footer-widget .gallery {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 300px;
+    margin: 0;
+}
+.footer{
+  height: 150px;
+  width: 1200px;
+}

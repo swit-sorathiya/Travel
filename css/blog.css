@@ -1,0 +1,53 @@
+.hero {
+      background: url('../img/blog\ home.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-text {
+      background: rgba(0, 0, 0, 0.5); /* optional for better text visibility */
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero .subtitle {
+      font-family: 'Cursive', sans-serif;
+      font-size: 1.5rem;
+      color: #ffc107;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+     .box2{
+            /* height: 220px; */
+            /* width: 220px; */
+            /* border-radius: 10px; */
+            overflow: hidden;
+            /* margin: 60px; */
+            /* padding: 10px 25px; */
+            float: left;
+            display: block;
+
+        }
+
+        .box2 img{
+            /* height: 100%; */
+            /* width: 100%; */
+            filter:brightness(100%);
+            transition: 1.9s ease;
+            cursor: pointer;
+            transform: scale(1.0);
+            
+        }
+        .box2 img:hover{
+            transform: scale(1.2);
+            filter: blur(100%);
+        }

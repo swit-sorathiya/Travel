@@ -1,0 +1,126 @@
+.hero {
+      background: url('../img/about-home.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-text {
+      background: rgba(0, 0, 0, 0.5); /* optional for better text visibility */
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero .subtitle {
+      font-family: 'Cursive', sans-serif;
+      font-size: 1.5rem;
+      color: #ffc107;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+     .box1{
+            /* height: 220px; */
+            /* width: 220px; */
+            /* border-radius: 10px; */
+            overflow: hidden;
+            /* margin: 60px; */
+            /* padding: 10px 25px; */
+            float: left;
+            display: block;
+
+        }
+
+        .box1 img{
+            height: 100%;
+            width: 100%;
+            filter:brightness(100%);
+            transition: 0.9s ease;
+            cursor: pointer;
+            transform: scale(1.5);
+            
+        }
+        .box1 img:hover{
+            transform: scale(1.9);
+            filter: blur(100%);
+        }
+
+
+    .background1 
+    {
+        background:url("../img/shape-1.png");
+        background-size: cover;
+        border-radius: 10px;
+        /* height:600px; */
+    }
+     .background1 h1 {
+      font-size: 4rem;
+      font-weight: 1000;
+    }
+    .background1  p {
+      margin-top: 10px;
+      font-size: 2rem;
+    }
+
+    .background2 
+    {
+        background:url("../img/shape-2.png");
+        /* height:290px; */
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+     .background2 h1 {
+      font-size: 4rem;
+      font-weight: 1000;
+    }
+    .background2 p {
+      margin-top: 10px;
+      font-size: 2rem;
+    }
+
+     .background3 
+    {
+        background:url("../img/shape-3.png");
+        /* height:290px; */
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     .background3 h4 {
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .background3  p {
+      margin-top: 10px;
+      font-size: 2rem;
+    }
+    .hero1 {
+      background: url('../img/Slide-In\ Tour\ slider.webp') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero1-text {
+      background: rgba(0, 0, 0, 0.5); 
+      padding: 20px;
+      border-radius: 10px;
+    }
+     .hero1 .subtitle {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 3rem;
+      color: #ffc107;
+    }
